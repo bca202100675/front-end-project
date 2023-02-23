@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid blue;
+  }
+  th, td {
+    border: 1px solid blue;
+    padding: 8px;
+  }
+  div {
+      margin-bottom: 20px;
+  }
+  body{
+      font-family:'Times new roman', Times, serif ;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+  .container div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container div input{
+    height: 25px;
+    width: 180px;
+    border-style: solid;
+    border-color: #000;
+  }
+
+  .container  button{
+    height: 25px;
+    width: 180px;
+    border-style: dashed;
+    background-color:azure;
+  }
